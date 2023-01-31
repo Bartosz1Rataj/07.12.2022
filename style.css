@@ -1,0 +1,122 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(113, 100, 189) , rgb(35, 22, 148));
+    background-color: rgb(50, 71, 165);
+    font-family: sans-serif;
+
+
+}
+
+#container{
+
+}
+
+#menu{
+    background-color: white;
+    width: 30%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+
+#nav{
+    background-color: rgb(120, 69, 161);
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    height: 15%;
+    font-family: 'Secular One', sans-serif;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    
+}
+
+#h1{
+
+}
+
+#wpisac{
+    font-size: 14px;
+    font-family: 'Secular One', sans-serif;
+    margin: 20px;
+    color: rgb(120, 69, 161);
+
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(120, 69, 161);
+}
+
+.czerwony{
+    color: red;
+}
+
+#fname{
+    border-bottom: 2px solid red;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+#fname2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+#fname:focus {
+    outline: none;
+}
+
+#lname{
+    border-bottom: 2px solid rgb(120, 69, 161);
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+#lname:focus {
+    outline: none;
+}
+
+#age{
+    border-bottom: 2px solid red;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+#age:focus {
+    outline: none;
+}
+
+#email{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    color:rgb(120, 69, 161);
+
+}
+
+#email:focus {
+    outline: none;
+}
+
+#submit{
+
+}
+
+.button{
+    float: right;
+    height: 50px;
+    background-color: rgb(120, 69, 161);
+    border-radius: 14px;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-right: 50px;
+}
